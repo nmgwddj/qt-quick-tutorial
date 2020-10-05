@@ -4,13 +4,13 @@
  - 基本概念
    - 什么是 Qt Quick (What's Qt Quick)
    - 什么是 QML (What's QML)
+   - 信号与事件处理（Signal and Handler Event System）
  - 布局
    - 锚点 (Anchors)
    - 布局 (Layouts)
  - 控件
    - 控件和自定义样式 (Controls)
    - 自定义控件样式（Styling Qt Quick Controls）
-   - 容器 (Containers)
    - Handlers
    - UI Forms
  - 容器（Containers）
