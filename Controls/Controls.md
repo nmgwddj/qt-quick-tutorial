@@ -57,7 +57,7 @@ Window {
 }
 ```
 
-上面代码中，我们响应了按钮的 onClicked 事件，实际该按钮有一个 clicked 信号，当我们点击后触发该信号的槽函数 onClicked，随后在控制台打印了 `Button clikced.`
+上面代码中，我们响应了按钮的点击事件，实际该按钮有一个 clicked 信号，当我们点击后触发该信号的处理程序 onClicked，随后在控制台打印了 `Button clikced.`
 
 同样的，再举一个 Slider 的例子，Slider 是一个滑动条，当我们拖动滑动块的时候，会触发 Slider 的 valueChanged 信号，我们只需要响应这个信号即可观测到数据的变化
 

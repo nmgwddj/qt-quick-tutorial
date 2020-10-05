@@ -2,7 +2,7 @@
 
 在上一篇介绍中，我们了解到 Qt Quick 项目的 UI 资源是通过 QML 描述的，它与 Duilib 的 xml 起到同样的作用，描述 UI 是如何展示的。但他不仅仅能描述一个窗口或者控件的样式，它还有一些更强大的功能允许我们通过前端即可控制一些业务逻辑。
 
-## Item
+## 项目（Items）
 
 除了上文中我们看到的 Window 和我们尚未接触到的 ApplicationWindow 以外，QML 几乎所有其他组件都是基于一个基础 Item 衍生而来的。这里有一幅网友整理的关系图，来自 [https://github.com/CodeBees/QMLClassDiagram](https://github.com/CodeBees/QMLClassDiagram)，此图清晰的展示了 QML 所有 Items 的关系
 
