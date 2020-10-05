@@ -12,20 +12,20 @@
    - 控件和自定义样式 (Controls)
    - 自定义控件样式（Styling Qt Quick Controls）
    - Handlers
-   - UI Forms
+   - 表单 UI Forms
  - 容器（Containers）
-   - 视图容器（Views）
+   - 视图容器（Models and Views in Qt Quick）
    - 组件加载器（Loader）
  - C++ 与 QML 通信
-   - Context Properties
-   - Signals & Slots
-   - Register Types & Models
+   - 全局上下文（Context Properties）
+   - 注册自定义 QML 类型（Integrating QML and C++）
+   - 注册自定义数据模型（Using C++ Models with Qt Quick Views）
  - 多窗口管理
-   - 动态创建窗口或组件 Create window or component dynamically
-   - Inside window
-   - Singleton window
-   - Manage windows by C++
+   - 动态创建窗口或组件（Dynamic QML Object Creation from JavaScript）
+   - 内联窗口
+   - 单例窗口
+   - 由 C++ 管理 QML 窗口（Interacting with QML Objects from C++）
  - 其他
-   - Global Styles
-   - Translates
+   - 全局样式（Global Styles）
+   - 翻译（Translates）
 
