@@ -160,9 +160,9 @@ Q_PROPERTY 一共有4个值
  - 第一个是告诉 QML 你要访问的这个属性的类型和名称
  - 第二个以 READ 开头表示要读取该属性你要调用的方法（我们已经创建好）
  - 第三个以 WRITE 开头表示要修改该属性你要调用的方法（同样已经创建好）
- - 第四个以 NOTIF 开头表示这个属性变更时要关注的通知是哪一个（我们创建好的 loggedInChanged 信号）
+ - 第四个以 NOTIFY 开头表示这个属性变更时要关注的通知是哪一个（我们创建好的 loggedInChanged 信号）
 
-完整的 C++ 代码如下：
+请注意，Q_PROPERTY 并不是一个函数，而是一个宏，中间是不需要加逗号分割的。完整的 C++ 代码如下：
 
 ```C++
 #ifndef AUTHMANAGER_H
@@ -246,7 +246,6 @@ Q_INVOKABLE void login(const QString& username, const QString& password) {
 ```C++
 Q_INVOKABLE void login(const QString& username, const QString& password) {
     // Send HTTP request
-    // emit loginSignal(true or false)
     qInfo() << "Received login request, username: " << username << ", password: " << password;
     setLoggedIn(true);
     emit loginSignal(true);

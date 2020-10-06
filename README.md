@@ -17,7 +17,7 @@
    - [视图容器](Containers/Views.md)（Models and Views in Qt Quick）
    - [组件加载器](Containers/Loader.md)（Loader）
  - C++ 与 QML 通信
-   - 全局上下文（Context Properties）
+   - [全局上下文](Integrating/Context-Properties.md)（Context Properties）
    - 注册自定义 QML 类型（Integrating QML and C++）
    - 注册自定义数据模型（Using C++ Models with Qt Quick Views）
  - 多窗口管理

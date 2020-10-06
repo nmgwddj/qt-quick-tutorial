@@ -6,6 +6,6 @@ Qt Quick 提供了多种 C++ 与 QML 交互的方法，不同的方法是根据�
 
 我将图片中的内容进行了翻译：
 
-<img src="../images/Integrating/cpp-qml-integration-flowchart-cn.png">
+<img src="../images/Integrating/cpp-qml-integration-flowchart-cn.jpg">
 
 除了上面的方式，Qt 官方文档中还描述了另外一种将一个 C++ 类通过全局上下文的方式注册给 QML 使用，它借助接口 `setContextProperty` 来实现。一旦注册到 QML 的全局上下文，在前端任何 .qml 文件中都可以无需导入任何外部包的方式直接访问一个 C++ 对象。下面我们来详细介绍这些方式。
