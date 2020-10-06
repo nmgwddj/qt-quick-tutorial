@@ -1,12 +1,12 @@
-## Anchors 锚点（Anchor-based Layout）
+# Anchors 锚点（Anchor-based Layout）
 
-### 1）基本认知
+## 基本认知
 
 像其他 UI 框架一样，QML 的组件允许我们通过固定的 x、y 坐标来控制位置的显示，但这样未免有些死板切不容易控制。QML 中提出了一个比较新颖的布局方式（这里叫布局可能不太合适，暂时这样表示，如有更好的表达方式将会修正）就是“Anchors”锚点。每一个 Item 都具有 7 个锚线（Anchor lines）包括上方 top、下方 bottom、左侧 left、右侧 right、垂直中心 verticalCenter、水平中心 horizontalCenter 和基线 baseline。下图演示了一个 Item 几个方向的基准线：
 
 <img src="../images/2020-10-04_21-15-44.png">
 
-### 2）以指定节点为基准
+## 以指定节点为基准
 
 默认情况下，一个 Item 放置到一个 Window 中是没有具体定位的，他们都将父级的左上角作为起点。如下所示：
 
@@ -70,7 +70,7 @@ Window {
 
 同理，如果你希望 rect2 在 rect1 下方，则修改 `anchors.left: rect1.right` 为 `anchors.top: rect1.bottom`，这里不再过多代码演示，可以自己写一些代码来进行演示。
 
-### 3）居中
+## 居中
 
 除了上方、下方、左侧、右侧，我们还可以指定他们根据某个 Item 的垂直中心和水平中心进行布局。去掉绿色的矩形仅保留一个红色的矩形，我们让红色的矩形在 Window 的中心显示，可以这样来实现：
 
@@ -121,7 +121,7 @@ Window {
 }
 ```
 
-### 4）填充
+## 填充
 
 上面代码效果是一样的。除了 centerIn，还有一个比较常用的 anchors.fill，表示要填充到哪个父节点中。比如我们希望红色的矩形填充整个窗口，则去掉宽高属性后，指定 anchors.fill 为 parent 即可：
 
@@ -149,7 +149,7 @@ Window {
 
 <img src="../images/2020-10-04_22-33-03.png">
 
-### 5）边距
+## 边距
 
 有时我们希望填充后具有一定边距，那么可以通过 anchors.margins 来控制填充后的边距：
 
@@ -180,7 +180,7 @@ Window {
 
 如果你希望只控制一边的边距，可以指定 leftMargin、rightMargin、topMargin 或 bottomMargin 属性来达到目的。
 
-### 6）其他
+## 其他
 
 使用锚点布局必须是有父子关系的节点或是同级节点，不能跳级，也不能跨节点。比如下面的示例中，我们希望 rect3 居中显示在 rect2 中，但是由于他们并不是父子关系也不是同一级别的，导致设置失效：
 
@@ -223,7 +223,7 @@ Window {
 
 <img src="../images/2020-10-04_22-38-34.png">
 
-### 7）总结
+## 总结
 
 以上为 Anchors 锚点方式布局的一些常用示例和说明，更多可以参考 Qt 官方文档：https://doc.qt.io/qt-5/qtquick-positioning-anchors.html
 

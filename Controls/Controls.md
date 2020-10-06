@@ -1,4 +1,4 @@
-## Qt Quick Controls
+# Qt Quick Controls
 
 Qt Quick Controls 是目前来看提供的基础控件能力最完整的集合。它不像一些 React、Vue 这种前端 UI 框架仅仅提供基础能力，而由外部团队去完成交互控件的设计和实现（如 Ant Design 等类似视觉交互语言）而是将一些常用的基础交互能力的控件全部抽象出来提供开发者使用。
 

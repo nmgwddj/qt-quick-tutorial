@@ -1,4 +1,4 @@
-## Customizing Qt Quick Controls（自定义控件样式）
+# Customizing Qt Quick Controls（自定义控件样式）
 
 虽然 Qt Quick 提供的基础控件已经非常丰富，但是往往我们开发的项目中需要对不同的控件做定制，比如我们希望按钮的背景不是灰色而是黑色，控件的默认文本颜色不是黑色而是白色。那么就需要通过自定义控件样式来实现了。以 Button 为例：
 
