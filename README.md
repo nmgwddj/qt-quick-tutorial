@@ -18,7 +18,7 @@
    - [组件加载器](Containers/Loader.md)（Loader）
  - C++ 与 QML 通信
    - [全局上下文](Integrating/Context-Properties.md)（Context Properties）
-   - 注册自定义 QML 类型（Integrating QML and C++）
+   - [注册自定义 QML 类型](Integrating/Register-QML-Type.md)（Integrating QML and C++）
    - 注册自定义数据模型（Using C++ Models with Qt Quick Views）
  - 多窗口管理
    - 动态创建窗口或组件（Dynamic QML Object Creation from JavaScript）
