@@ -8,7 +8,7 @@
 
 在创建这个单例窗口时，你还是需要先创建一个 Window 并将他独立在一个文件中，不同的是我们需要在文件的开头使用 `pragma Singleton` 关键字描述它是单例形式存在的，代码如下：
 
-```
+```QML
 pragma Singleton
 
 import QtQuick 2.12
