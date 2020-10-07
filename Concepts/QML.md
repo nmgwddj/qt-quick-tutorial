@@ -179,7 +179,7 @@ Connections {
 
 ## QML 中使用 JavaScript
 
-在上面的一些示例中，信息的读者不难发现，像 Qt5.15 中推荐的信号连接函数写法是一个 JavaScript 风格的函数。没错，在 QML 中允许你将各种表达式和方法定义为 JavaScript 函数，并且你可以将单独的一个 JavaScript 工具文件导入到工程中使用。先看一个简单的例子：
+在上面的一些示例中，细心的读者不难发现，像 Qt5.15 中推荐的信号连接函数写法是一个 JavaScript 风格的函数。没错，在 QML 中允许你将各种表达式和方法定义为 JavaScript 函数，并且你可以将单独的一个 JavaScript 工具文件导入到工程中使用。先看一个简单的例子：
 
 ```QML
 import QtQuick 2.12
