@@ -21,11 +21,10 @@
    - [注册自定义 QML 类型](Integrating/Register-QML-Type.md)（Integrating QML and C++）
    - [注册自定义数据模型](Integrating/Using-C++-Models.md)（Using C++ Models with Qt Quick Views）
  - 多窗口管理
-   - 动态创建窗口或组件（Dynamic QML Object Creation from JavaScript）
-   - 内联窗口
-   - 单例窗口
-   - 由 C++ 管理 QML 窗口（Interacting with QML Objects from C++）
+   - [动态创建窗口或组件](./Windows/Create-Component-Dynamically.md)（Dynamic QML Object Creation from JavaScript）
+   - [内联窗口](Windows/Inside-Window.md)
+   - [单例窗口](Windows/Singleton-Objects.md)
  - 其他
-   - 全局样式（Global Styles）
-   - 翻译（Translates）
+   - 全局样式（Global Styles）Todo
+   - 翻译（Translates）Todo
 
