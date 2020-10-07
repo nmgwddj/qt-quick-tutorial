@@ -7,7 +7,7 @@
  - 前言
  - 基本概念
    - [什么是 Qt Quick](Concepts/Qt%20Quick.md) (What's Qt Quick)
-   - [什么是 QML](Concepts/Qt%20Quick.md) (What's QML)
+   - [什么是 QML](Concepts/QML.md) (What's QML)
    - [信号与事件处理](Concepts/Signal&Handler.md)（Signal and Handler Event System）
  - 布局
    - [锚点](Layouts/Anchors.md) (Anchors)
