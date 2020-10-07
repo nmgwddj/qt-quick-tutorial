@@ -1,5 +1,9 @@
 # Qt Quick tutorial
 
+## The Repository
+
+此项目使用中文文本的方式描述了 Qt Quick 及其描述性语言 QML 的使用方法，内容丰富生动，通过这些学习，您可以快速从其他 UI 框架转入 Qt Quick 并制作任何自己想要的桌面应用。
+
  - 前言
  - 基本概念
    - [什么是 Qt Quick](Concepts/Qt%20Quick.md) (What's Qt Quick)
@@ -27,4 +31,8 @@
  - 其他
    - 全局样式（Global Styles）Todo
    - 翻译（Translates）Todo
+
+## Feedback
+
+为避免误导，如果您发现内容中有任何错误，欢迎提交 Issue 来帮助我完善它们。
 
