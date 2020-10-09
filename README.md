@@ -29,8 +29,9 @@
    - [内联窗口](Windows/Inside-Window.md)
    - [单例窗口](Windows/Singleton-Objects.md)
  - 其他
-   - 全局样式（Global Styles）Todo
-   - 翻译（Translates）Todo
+   - 全局样式（Global Styles）TODO
+   - 翻译（Translation）TODO
+   - 缩放（DPI Scaling）TODO
 
 ## Feedback
 
