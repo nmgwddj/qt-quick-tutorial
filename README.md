@@ -31,7 +31,7 @@
  - 其他
    - 全局样式（Global Styles）TODO
    - 翻译（Translation）TODO
-   - 缩放（DPI Scaling）TODO
+   - [缩放](Others/DPI-Scaling.md)（DPI Scaling）TODO
 
 ## Feedback
 
