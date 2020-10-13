@@ -9,9 +9,9 @@
    - [什么是 Qt Quick](Concepts/Qt%20Quick.md) (What's Qt Quick)
    - [什么是 QML](Concepts/QML.md) (What's QML)
    - [信号与事件处理](Concepts/Signal&Handler.md)（Signal and Handler Event System）
- - 布局
-   - [锚点](Layouts/Anchors.md) (Anchors)
-   - [布局](Layouts/Layouts.md) (Layouts)
+ - 布局定位
+   - [锚点](Positioning/Anchors.md) (Anchors)
+   - [布局](Positioning/Layouts.md) (Layouts)
  - 控件
    - [控件](Controls/Controls.md) (Controls)
    - [自定义控件样式](./Controls/Customizing%20Controls.md)（Styling Qt Quick Controls）
